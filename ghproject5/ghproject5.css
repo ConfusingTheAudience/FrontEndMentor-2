@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.exercise4 {
+  background-color: cyan;
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.exercise5 {
+  background-color: #ffd78e;
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.exercise6 {
+  background-color: lightsalmon;
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.card-flexbox {
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.card-flexbox .wholetext {
+  width: 500px;
+  height: 400px;
+  padding: 70px;
+  color: white;
+  background-color: #3d14b8;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.card-flexbox .wholetext > * {
+  margin-bottom: 40px;
+}
+
+.card-flexbox .wholetext__title {
+  letter-spacing: 1px;
+}
+
+.card-flexbox .wholetext__title-span {
+  color: purple;
+}
+
+.card-flexbox .wholetext__paragraph {
+  opacity: 0.6;
+  padding-right: 20px;
+}
+
+.card-flexbox .wholetext .numbers {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.card-flexbox .wholetext .numbersvalues__title {
+  margin-bottom: 5px;
+}
+
+.card-flexbox .wholetext .numbersvalues__title--center {
+  text-align: center;
+}
+
+.card-flexbox .wholetext .numbersvalues__paragraph {
+  opacity: 0.6;
+}
+
+.card-flexbox__image {
+  width: 500px;
+  height: 400px;
+  background-color: purple;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(115deg, rgba(252, 94, 244, 0.8), rgba(136, 136, 206, 0.7)), url(https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.justcircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.title {
+  color: white;
+}
+
+.paragraph {
+  color: white;
+  opacity: 0.7;
+  padding-right: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.net-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.net-grid--addthings {
+  padding: 60px 60px 20px 60px;
+}
+
+.net-grid--addthings > * {
+  margin-bottom: 40px;
+}
+
+.net-grid .firstnet {
+  background-color: #d18800;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.net-grid .firstnet .button--firstnet-button {
+  color: #d18800;
+}
+
+.net-grid .secondnet {
+  background-color: lightseagreen;
+}
+
+.net-grid .secondnet .button--secondnet-button {
+  color: lightseagreen;
+}
+
+.net-grid .thirdnet {
+  background-color: #027002;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.net-grid .thirdnet .button--thirdnet-button {
+  color: #027002;
+}
+
+.profile-card {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.profile-card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.profile-card .information-card {
+  position: relative;
+}
+
+.profile-card .information-card__character {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.profile-card .information-card__character .information-card__mainImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.profile-card .information-card .information-card2 {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.profile-card .information-card .information-card2__name {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-card .information-card .information-card2__age {
+  display: inline-block;
+  font-size: 1.8rem;
+  opacity: 0.6;
+}
+
+.profile-card .information-card .information-card2__from {
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  opacity: 0.6;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.profile-card .information-card .information-card2__from::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid black;
+  opacity: 0.2;
+}
+
+.profile-card .information-card .information-card2 .description {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.profile-card .information-card .information-card2 .description-numbers__howmuch {
+  margin-bottom: 5px;
+}
+
+.profile-card .information-card .information-card2 .description-numbers__paragraph {
+  letter-spacing: 2px;
+}
+
+.from-where {
+  display: flex;
+  gap: 20px;
+}
+
+.from-where a {
+  text-decoration: none;
+  color: #348afc;
+}
+
+.from-where a:hover {
+  color: blue;
+}
+
+@media only screen and (max-width: 1500px) {
+  .exercise4 {
+    width: 100vw;
+    height: 100vh;
+  }
+  .exercise4 .card-flexbox {
+    flex-direction: column-reverse;
+    border-radius: 25px;
+    height: 90vh;
+    text-align: center;
+  }
+  .exercise4 .card-flexbox .wholetext,
+  .exercise4 .card-flexbox .card-flexbox__image {
+    width: 80vw;
+  }
+  .exercise4 .card-flexbox .card-flexbox__image {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 0;
+    height: 30%;
+  }
+  .exercise4 .card-flexbox .wholetext {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 25px;
+    height: 70%;
+  }
+  .exercise4 .card-flexbox .wholetext .numbers {
+    flex-direction: column;
+  }
+  .exercise4 .card-flexbox .wholetext .numbersvalues {
+    margin-top: -10px;
+  }
+  .exercise4 .card-flexbox .wholetext__paragraph {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .exercise5 {
+    width: 100vw;
+    height: max-content;
+  }
+  .exercise5 .net-grid {
+    width: 70vw;
+    grid-template-columns: 1fr;
+    padding: 50px 0;
+  }
+  .exercise5 .net-grid .firstnet {
+    background-color: #d18800;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0;
+  }
+  .exercise5 .net-grid .thirdnet {
+    background-color: #027002;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 5px;
+  }
+  .exercise6 {
+    width: 100vw;
+    height: max-content;
+    padding: 50px 0;
+  }
+  .profile-card {
+    width: 70vw;
+  }
+}
